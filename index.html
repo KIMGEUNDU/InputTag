@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Input 태그 속성 공부하기</title>
+</head>
+
+<body>
+  <form action="#" class="container">
+    <h1>INPUT 태그</h1>
+    <div class="text">
+      <h3>텍스트 타입</h3>
+      <span>텍스트</span><input type="text" placeholder="text">
+      <span>이메일</span> <input type="email" placeholder="email" />
+      <span>비밀번호</span><input type="password" placeholder="password" />
+      <span>숫자</span><input type="number" placeholder="number" step="2" min="1" />
+      <span>검색</span><input type="search" placeholder="search" />
+      <span>URL</span><input type="url" placeholder="url" />
+    </div>
+    <div class="textarea">
+      <span>여러줄의 텍스트</span>
+      <input type="textarea" placeholder="textarea" maxlength="10" />
+    </div>
+    <div class="button">
+      <h3>버튼 타입</h3>
+      <div class="button-input">
+        <span>버튼</span><input class="checkbox type=" button" value="button" />
+        <span>제출</span><input class="checkbox type=" submit" />
+        <div class="width">
+          <span>체크박스</span>
+          <div class="center">
+            <span>
+              <input type="checkbox" />
+              <input type="checkbox" checked />
+            </span>
+          </div>
+        </div>
+        <span>초기화</span><input class="checkbox type=" reset" />
+        <span>라디오</span>
+        <div class="center">
+          <span>
+            <input type="radio" />
+          </span>
+        </div>
+      </div>
+      <div class="attachment">
+        <h3>첨부 타입</h3>
+        <div class="attachment-input">
+          <span>파일첨부</span><input type="file" />
+          <span>색깔</span><input type="color" />
+        </div>
+      </div>
+      <div class="slide">
+        <span>슬라이드바</span><input type="range" />
+      </div>
+
+
+  </form>
+</body>
+
+</html>
